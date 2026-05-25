@@ -2,6 +2,8 @@
 
 include 'koneksi.php';
 
+$error = '';
+
 if (isset($_POST['submit'])) {
     $email = $_POST['email'];
     $nama = $_POST['nama'];
